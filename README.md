@@ -1,3 +1,16 @@
+This fork is part of an experiment to see what can be done with the 15-bit color mode of the
+Sega 32X. The zauonlok/renderer project seemed like a reasonable starting point for a software
+renderer that was modern/full featured by predated the more recent work done with super-powerful
+GPUs.
+
+The theory is that the two SH2 processors combined can emulate a reasonable fast GPU, and act as
+a graphics coprocessor for the 68000 inside the CD expansion.
+
+TODO - I need to get a credits section in here, since I am also leveraging a lot of AWESOME work
+from the Sega developer community.
+
+- - - Original README starts here - - -
+
 # Software Renderer ![](https://github.com/zauonlok/renderer/workflows/Windows/badge.svg) ![](https://github.com/zauonlok/renderer/workflows/macOS/badge.svg) ![](https://github.com/zauonlok/renderer/workflows/Linux/badge.svg)
 
 <img src="assets/helmet/screenshot2.png" width="410"> <img src="assets/helmet/screenshot3.png" width="410">
